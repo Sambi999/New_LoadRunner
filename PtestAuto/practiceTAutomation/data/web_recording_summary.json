@@ -1,0 +1,678 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-client-data",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "update-interactivity",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-mesh-client-webview",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-mesh-client-os-version",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-mesh-client-os",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-mesh-client-edge-version",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-mesh-client-edge-channel",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-mesh-client-arch",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "msa_deviceticket",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "ms-cv",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "edgefeatureflags",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "authorization",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 12,
+    "RecordedBrowser": "c:\\program files (x86)\\microsoft\\edge\\application\\msedge.exe",
+    "RecordingDate": "Feb-22-2024",
+    "RecordingDuration": 92047,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1708582664,
+    "RecordingType": "Application",
+    "TotalBytesReceived": 836900,
+    "TotalBytesSent": 47447,
+    "TotalRequests": 45,
+    "UserAgent": "Crashpad/0.8.0 WinHTTP/10.0.19041.3031 Windows_NT/10.0.19041.3155 (x64)"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "20.42.65.92",
+          "IncludeInScript": true,
+          "Name": "nw-umwatson.events.data.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 265,
+              "EventId": 1200,
+              "HttpStatus": 200,
+              "Size": 636,
+              "URL": "https://nw-umwatson.events.data.microsoft.com/Telemetry.Request"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "20.198.167.116",
+          "IncludeInScript": true,
+          "Name": "nav-edge.smartscreen.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 62,
+              "EventId": 1407,
+              "HttpStatus": 200,
+              "Size": 983,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 1373,
+              "HttpStatus": 200,
+              "Size": 996,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 1364,
+              "HttpStatus": 200,
+              "Size": 980,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.107.21.239",
+          "IncludeInScript": true,
+          "Name": "edge.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 1273,
+              "HttpStatus": 200,
+              "Size": 32,
+              "URL": "https://edge.microsoft.com/autofillservice/v1/pages/ChVDaHJvbWUvMTIxLjAuMjI3Ny4xMjgSIAmd3CIW3paY3xIFDXhvEhkSBQ3OQUx6KUHXDn_3wAwC?alt=proto"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 1249,
+              "HttpStatus": 200,
+              "Size": 462,
+              "URL": "https://edge.microsoft.com/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.19045&devicefamily=desktop&installdate=1666087002&clientversion=121.0.2277.128&experimentationmode=2&scpguard=1&scpfull=0&scpver=15"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 109,
+              "EventId": 1246,
+              "HttpStatus": 200,
+              "Size": 413,
+              "URL": "https://edge.microsoft.com/extensionwebstorebase/v1/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=edgecrx&prodchannel=&prodversion=121.0.2277.128&lang=en-US&acceptformat=crx3,puff&x=id%3Djmjflgjpcpepeafmmgdpfkogkghcpiha%26v%3D1.2.1%26installedby%3Dother%26uc"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "herokuapp.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "54.146.248.82",
+          "IncludeInScript": true,
+          "Name": "thinking-tester-contact-list.herokuapp.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 235,
+              "EventId": 1427,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterIcon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 250,
+              "EventId": 1425,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/css/styles.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 235,
+              "EventId": 1423,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 219,
+              "EventId": 1421,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/js/login.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 250,
+              "EventId": 1419,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 250,
+              "EventId": 1417,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/users/logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1415,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterIcon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1413,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/css/styles.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 234,
+              "EventId": 1411,
+              "HttpStatus": 200,
+              "Size": 343,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/js/logout.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 1409,
+              "HttpStatus": 200,
+              "Size": 234,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/logout"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 234,
+              "EventId": 1404,
+              "HttpStatus": 200,
+              "Size": 114,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/contacts"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1402,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterIcon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1400,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/css/styles.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1398,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1396,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1394,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/contactList"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 250,
+              "EventId": 1392,
+              "HttpStatus": 201,
+              "Size": 112,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/contacts"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1384,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterIcon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1381,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/css/styles.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1379,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 234,
+              "EventId": 1377,
+              "HttpStatus": 200,
+              "Size": 2131,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/js/addContact.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 234,
+              "EventId": 1375,
+              "HttpStatus": 200,
+              "Size": 2482,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/addContact"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1368,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterIcon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 234,
+              "EventId": 1366,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/contacts"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1362,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 234,
+              "EventId": 1360,
+              "HttpStatus": 200,
+              "Size": 3860,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/js/contactList.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 234,
+              "EventId": 1358,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/css/styles.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 218,
+              "EventId": 1354,
+              "HttpStatus": 200,
+              "Size": 849,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/contactList"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 266,
+              "EventId": 1350,
+              "HttpStatus": 200,
+              "Size": 277,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/users/login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 1265,
+              "HttpStatus": 200,
+              "Size": 1173,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterIcon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 234,
+              "EventId": 1261,
+              "HttpStatus": 200,
+              "Size": 907,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/js/login.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 234,
+              "EventId": 1259,
+              "HttpStatus": 200,
+              "Size": 12718,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/img/thinkingTesterLogo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 234,
+              "EventId": 1255,
+              "HttpStatus": 200,
+              "Size": 913,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/css/styles.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 1222,
+              "HttpStatus": 200,
+              "Size": 1303,
+              "URL": "https://thinking-tester-contact-list.herokuapp.com/"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "bing.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.44.10.59",
+          "IncludeInScript": true,
+          "Name": "www.bing.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 1275,
+              "HttpStatus": 200,
+              "Size": 804495,
+              "URL": "https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.107.6.158",
+          "IncludeInScript": true,
+          "Name": "business.bing.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 203,
+              "EventId": 1253,
+              "HttpStatus": 401,
+              "Size": 0,
+              "URL": "https://business.bing.com/api/v1/user/token/microsoftgraph?&clienttype=edge-omnibox"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 203,
+              "EventId": 1217,
+              "HttpStatus": 401,
+              "Size": 384,
+              "URL": "https://business.bing.com/work/api/v2/tenant/my/settingswithflights?&clienttype=edge-omnibox"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "azureedge.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.107.246.58",
+          "IncludeInScript": true,
+          "Name": "edge-consumer-static.azureedge.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 1348,
+              "HttpStatus": 200,
+              "Size": 101,
+              "URL": "https://edge-consumer-static.azureedge.net/mouse-gesture/config.json"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

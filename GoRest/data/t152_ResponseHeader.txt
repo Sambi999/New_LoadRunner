@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Embedder-Policy: require-corp
+Report-To: {"group":"recaptcha","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/recaptcha"}]}
+Expires: Thu, 22 Feb 2024 11:24:40 GMT
+Date: Thu, 22 Feb 2024 11:24:40 GMT
+Cache-Control: private, max-age=300
+Content-Security-Policy: script-src 'report-sample' 'nonce-csq55s-Fu3NqoECMfoGjPg' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/recaptcha/1
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

@@ -1,0 +1,274 @@
+[API Trapper      (39c4:3194)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (22dc:2fb0)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 6b4: 904)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 6b4:1054)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 6b4:1054)] Load Network Traffic Analyzers:
+[Network Analyzer ( 6b4:1054)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 6b4:1054)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 6b4:1054)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 6b4:1054)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 6b4:1054)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 6b4:1054)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 6b4:1054)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 6b4:1054)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 6b4:3798)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.195.35:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4: 358)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 74.125.200.84:443   (Service=)  (Sid=  3)  PROXIED!
+[Net An. Error    ( 6b4: 358)] SSLAccept(ssl_id = 2024011804208 = 000001D740812E30) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4: 358)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4: 9f4)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4: 9f4)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 6b4:3798)] "GET /"   
+[Network Analyzer ( 6b4:3798)]   (Sid:  2) Client -> Server @ : 671 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:160c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:160c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 6b4:3798)]   (Sid:  2) Server -> Client : 1451 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /css/jpetstore.css"   
+[Network Analyzer ( 6b4:3798)]   (Sid:  2) Client -> Server @ : 565 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  2) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  2) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  2) Server -> Client : 1782 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  1) Connection Terminated (by Client)
+[Web Request      ( 6b4:3798)] "GET /favicon.ico"   
+[Network Analyzer ( 6b4:3798)]   (Sid:  2) Client -> Server @ : 605 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  2) Server -> Client : 995 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 74.125.200.188:5228   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.205.227:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer ( 6b4:35ac)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:35ac)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (1d2c:3364)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 6b4:3798)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:3798)]   (Sid:  4) Client -> Server @ : 156 bytes (SSL)
+[Network Analyzer ( 6b4:3798)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:3798)]   (Sid:  4) Server -> Client : 1 bytes (SSL)
+[Network Analyzer ( 6b4:3798)]   (Sid:  4) Server -> Client : 67 bytes (SSL)
+[Network Analyzer ( 6b4:1cdc)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:3798)]   (Sid:  4) Server -> Client : 12 bytes (SSL)
+[Net An. Error    ( 6b4:1cdc)] SSLAccept(ssl_id = 2024011973088 = 000001D74083C1E0) Failed, ctx = 000001D74088ACD0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    ( 6b4:1cdc)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.195.234:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.183.234:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 6b4:1538)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:1538)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.193.142:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( 6b4:2e8c)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:2e8c)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 6b4:161c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:161c)] SSLAccept(ssl_id = 2024012582784 = 000001D7408D0F80) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:161c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( 6b4:2468)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:2468)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 6b4:3798)] "GET /actions/Catalog.action"   
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Client -> Server @ : 741 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Server -> Client : 1235 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/logo-topbar.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Client -> Server @ : 691 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Server -> Client : 8 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:3988)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:227c)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( 6b4:3988)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 6b4:227c)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 6b4:3798)] "GET /images/sm_fish.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Client -> Server @ : 687 bytes (SSL)(Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/cart.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Client -> Server @ : 684 bytes (SSL)(Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/separator.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 11) Client -> Server @ : 689 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Server -> Client : 565 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 388 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/sm_cats.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Client -> Server @ : 687 bytes (SSL)(Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/splash.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Client -> Server @ : 686 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 11) Server -> Client : 338 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/dogs_icon.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 11) Client -> Server @ : 689 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/cats_icon.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Client -> Server @ : 689 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 11) Server -> Client : 762 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/sm_birds.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 11) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:2c4c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:2c4c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/fish_icon.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 12) Client -> Server @ : 689 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 3530 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/reptiles_icon.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Client -> Server @ : 693 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Server -> Client : 702 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/birds_icon.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Client -> Server @ : 690 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 11) Server -> Client : 545 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/sm_dogs.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 11) Client -> Server @ : 687 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 963 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /images/sm_reptiles.gif"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Client -> Server @ : 691 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Server -> Client : 765 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 11) Server -> Client : 600 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:1578)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:1578)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 6b4:3798)]   (Sid: 12) Server -> Client : 733 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 692 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:1ca4)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:1ca4)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 6b4:136c)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:136c)] SSLAccept(ssl_id = 2024020850416 = 000001D7410B36F0) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:136c)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( 6b4:35fc)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:35fc)] SSLAccept(ssl_id = 2024020835536 = 000001D7410AFCD0) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:35fc)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer ( 6b4:2d3c)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:2d3c)] SSLAccept(ssl_id = 2024020880176 = 000001D7410BAB30) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:2d3c)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 6b4:28cc)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:28cc)] SSLAccept(ssl_id = 2024020850416 = 000001D7410B36F0) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:28cc)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 18) Connection Terminated (by Client)
+[Web Request      ( 6b4:3798)] "GET /actions/Catalog.action;jsessionid=BFD2CBF8EF7C9476BEC859CD6D0E4CDF?viewCategory=&categoryId=FISH"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Client -> Server @ : 890 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 3691 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( 6b4:3aac)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:3aac)] SSLAccept(ssl_id = 2024020865296 = 000001D7410B7110) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:3aac)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( 6b4:2880)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:2880)] SSLAccept(ssl_id = 2024020857856 = 000001D7410B5400) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:2880)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer ( 6b4: d94)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4: d94)] SSLAccept(ssl_id = 2024020850416 = 000001D7410B36F0) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4: d94)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 21) Connection Terminated (by Client)
+[WebMultiInProcNotify_x64:  (39c4:247c)] Insert Text Check: "Fish"
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.205.227:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer ( 6b4:384c)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 6b4:384c)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      ( 6b4:3798)] "POST /service/update2/json?cup2key=13:0Gfk8892wvE-RUyHDP_vLakVh45q3YBJgBAWdrmuLtU&cup2hreq=c01a75b8540732114d04d39e85afcda202d0d8e2897eae04b65d954bb0c4f78d"
+[Network Analyzer ( 6b4:3798)]   (Sid: 22) Client -> Server @ : 1339 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 22) Client -> Server @ : 8593 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 22) Server -> Client : 1153 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 22) Server -> Client : 1062 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 22) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( 6b4:3798)] "GET /actions/Catalog.action?viewProduct=&productId=FI-SW-01"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Client -> Server @ : 922 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 3869 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.182.42:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer ( 6b4:2074)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:2074)] SSLAccept(ssl_id = 2024020865296 = 000001D7410B7110) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:2074)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 23) Connection Terminated (by Client)
+[WebMultiInProcNotify_x64:  (39c4:247c)] Insert Text Check: "Angelfish"
+[Network Analyzer ( 6b4:3798)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer ( 6b4:3798)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.195.42:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer ( 6b4:1c58)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:1c58)] SSLAccept(ssl_id = 2024020857856 = 000001D7410B5400) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:1c58)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 24) Connection Terminated (by Client)
+[Web Request      ( 6b4:3798)] "GET /actions/Cart.action?addItemToCart=&workingItemId=EST-1"   
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:3798)]   (Sid: 10) Server -> Client : 233 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.195.42:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer ( 6b4:2298)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:2298)] SSLAccept(ssl_id = 2024020872736 = 000001D7410B8E20) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:2298)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer ( 6b4:1054)] Address lookup for 603d42843d1856b = 192.168.146.1
+[Network Analyzer ( 6b4:1054)] Request Connection: Remote Server @ 142.250.195.42:443   (Service=)  (Sid= 26)  PROXIED!
+[WebMultiInProcNotify_x64:  (39c4:247c)] Insert Text Check: "Shopping Cart
+"
+[Network Analyzer ( 6b4:2fec)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 6b4:2fec)] SSLAccept(ssl_id = 2024020835536 = 000001D7410AFCD0) Failed, ctx = 000001D7407F3AC0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 6b4:2fec)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 6b4:3798)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer ( 6b4:3798)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer ( 6b4:3798)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer ( 6b4:3798)]   (Sid: 26) Connection Terminated (by Client)

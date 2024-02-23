@@ -1,0 +1,32 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: gorest.co.in",
+                "infFile": "t1.inf",
+                "time": 1708603614104
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: posts",
+                "infFile": "t2.inf",
+                "time": 1708603614317
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: Create User Request",
+                "infFile": "t3.inf",
+                "time": 1708603614609
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: users",
+                "infFile": "t4.inf",
+                "time": 1708603614792
+            }
+        ],
+        "transactions": []
+    }
+]
